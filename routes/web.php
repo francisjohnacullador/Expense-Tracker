@@ -9,7 +9,7 @@ use App\Http\Controllers\CategoryController;
 
 // Landing Page / Welcome Page
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
 });
 
 // --- AUTHENTICATION ROUTES ---
